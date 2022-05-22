@@ -9,7 +9,7 @@ export default function SinglePost() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState({});
-  const PF = "https://iznaworld.herokuapp.com/api/images/";
+  const PF = "https://izna-blog.vercel.app/api/images/";
   const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
