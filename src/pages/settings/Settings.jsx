@@ -12,7 +12,7 @@ export default function Settings() {
   const [success, setSuccess] = useState(false);
 
   const { user, dispatch } = useContext(Context);
-  const PF = "https://izna-blog.vercel.app/api/images/";
+  const PF = "https://iznaworld.herokuapp.com/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault();
