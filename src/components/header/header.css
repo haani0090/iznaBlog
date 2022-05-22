@@ -20,6 +20,7 @@
   position: absolute;
   top: 20%;
   font-size: 100px;
+  color: white;
 }
 
 .headerImg{
@@ -27,4 +28,5 @@
     height: 450px;
     margin-top: 80px;
     object-fit: cover;
+    
 }
